@@ -1,0 +1,12 @@
+{
+  "Cod de stare:    ": 200,
+  "Titlu:           ": "CYBERCOR",
+  "IP:              ": "104.21.91.71",
+  "Redirectionari:  ": [
+    "301 -> http://cybercor.org/"
+  ],
+  "Scor securitate: ": "3/5",
+  "Certificat:      ": "54 zile",
+  "Legaturi:        ": "1 interne, 0 externe",
+  "Cai interzise    ": []
+}
