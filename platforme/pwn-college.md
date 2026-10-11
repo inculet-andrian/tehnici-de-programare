@@ -1,0 +1,279 @@
+
+
+### Profil:  https://pwn.college/hacker/211629
+
+## Start Here
+- Using the dojo
+  - Using the Terminal - 2026-09-08 13:06:04
+  - Using the VSCode Workspace - 2026-09-08 13:10:38
+  - Using the GUI Desktop - 2026-09-08 13:13:26
+  - Pasting into the Desktop - 2026-09-08 13:15:13
+  - Challenge Programs - 2026-09-18 19:03:02
+  - The Flag File - 2026-09-18 19:03:54
+  - Using Privileged Mode - 2026-09-18 20:41:23
+  - Persistent Home Directories - One - 2026-09-18 20:44:15
+  - Restarting Challenges - 2026-09-22 12:27:28
+  - Persistent Home Directories - Two - 2026-09-22 12:28:13
+
+## Linux Luminarium
+- Hello Hackers
+  - Intro to Commands - 2026-09-08 17:00:51
+  - Intro to Arguments - 2026-09-08 17:05:35
+  - Command History - 2026-09-08 17:07:14
+- Pondering Paths
+  - The Root - 2026-09-08 17:20:56
+  - Program and absolute paths - 2026-09-08 17:21:56
+  - Position thy self - 2026-09-08 17:24:32
+  - Position elsewhere - 2026-09-08 17:58:16
+  - implicit relative paths, from / - 2026-09-08 18:02:17
+  - explicit relative paths, from / - 2026-09-08 18:03:32
+  - implicit relative path - 2026-09-08 18:04:46
+  - home sweet home - 2026-09-08 18:07:35
+- Comprehending Commands
+  - cat: not the pet, but the command! - 2026-09-08 18:29:06
+  - catting absolute paths - 2026-09-08 18:30:01
+  - more catting practice - 2026-09-08 18:35:34
+  - grepping for a needle in a haystack - 2026-09-08 18:36:53
+  - comparing files - 2026-09-08 19:10:45
+  - listing files - 2026-09-08 19:17:08
+  - touching files - 2026-09-08 19:19:13
+  - removing files - 2026-09-08 19:20:06
+  - moving files - 2026-09-08 19:28:02
+  - copying files - 2026-09-08 19:29:23
+  - hidden files - 2026-09-08 19:30:20
+  - An Epic Filesystem Quest - 2026-09-08 19:36:29
+  - making directories - 2026-09-08 19:39:41
+  - finding files - 2026-09-08 19:42:36
+  - linking files - 2026-09-08 20:46:08
+- Digesting Documentation
+  - Learning From Documentation - 2026-09-08 20:48:08
+  - Learning Complex Usage - 2026-09-08 20:53:46
+  - Reading Manuals - 2026-09-08 20:56:13
+  - Searching Manuals - 2026-09-08 20:58:41
+  - Searching For Manuals - 2026-09-08 21:01:56
+  - Helpful Programs - 2026-09-08 21:03:37
+  - Help for Builtins - 2026-09-08 21:08:36
+- File Globbing
+  - Matching with * - 2026-09-09 17:01:09
+  - Matching with ? - 2026-09-09 17:02:47
+  - Matching with [] - 2026-09-09 17:08:01
+  - Matching paths with [] - 2026-09-09 17:09:02
+  - Multiple globs - 2026-09-09 17:11:20
+  - Mixing globs - 2026-09-09 18:02:31
+  - Exclusionary globbing - 2026-09-09 19:30:58
+  - Tab completion - 2026-09-09 19:32:28
+  - Multiple options for tab completion - 2026-09-09 19:34:38
+  - Tab completion on commands - 2026-09-09 19:35:20
+- Practicing Piping
+  - Redirecting output - 2026-09-09 20:04:45
+  - Redirecting more output - 2026-09-09 20:06:18
+  - Appending output - 2026-09-09 20:08:40
+  - Redirecting errors - 2026-09-09 20:12:08
+  - Redirecting input - 2026-09-09 20:13:58
+  - Grepping stored results - 2026-09-09 20:16:09
+  - Grepping live output - 2026-09-09 20:17:44
+  - Grepping errors - 2026-09-09 20:20:11
+  - Filtering with grep -v - 2026-09-09 20:21:18
+  - Filtering with sed - 2026-09-09 20:22:50
+  - Duplicating piped data with tee - 2026-09-14 19:01:50
+  - Process substitution for input - 2026-09-14 19:08:26
+  - Writing to multiple programs - 2026-09-14 19:33:57
+  - Split-piping stderr and stdout - 2026-09-18 08:35:12
+  - Named pipes - 2026-09-18 18:06:22
+- Shell Variables
+  - Printing Variables - 2026-09-14 19:50:52
+  - Setting Variables - 2026-09-14 19:52:09
+  - Multi-word Variables - 2026-09-14 19:53:57
+  - Exporting Variables - 2026-09-14 19:57:06
+  - Printing Exported Variables - 2026-09-14 19:58:24
+  - Storing Command Output - 2026-09-14 20:03:12
+  - Reading Input - 2026-09-14 20:06:42
+  - Reading Files - 2026-09-14 20:09:17
+- Data Manipulation
+  - Translating characters - 2026-09-14 20:21:48
+  - Deleting characters - 2026-09-14 20:23:15
+  - Deleting newlines - 2026-09-14 20:24:35
+  - Extracting the first lines with head - 2026-09-14 20:26:05
+  - Extracting specific sections of text - 2026-09-14 20:28:58
+  - Sorting data - 2026-09-14 20:30:34
+- Processes and Jobs
+  - Listing Processes - 2026-09-15 04:50:20
+  - Killing Processes - 2026-09-15 04:53:56
+  - Interrupting Processes - 2026-09-15 04:54:46
+  - Killing Misbehaving Processes - 2026-09-15 05:11:05
+  - Suspending Processes - 2026-09-15 05:12:11
+  - Resuming Processes - 2026-09-15 05:12:56
+  - Backgrounding Processes - 2026-09-15 05:16:41
+  - Foregrounding Processes - 2026-09-15 05:24:42
+  - Starting Backgrounded Processes - 2026-09-15 05:28:22
+  - Process Exit Codes - 2026-09-15 05:31:06
+- Untangling Users
+  - Becoming root with su - 2026-09-15 05:37:43
+  - Other users with su - 2026-09-15 05:38:46
+  - Cracking passwords - 2026-09-15 05:45:59
+  - Using sudo - 2026-09-15 05:48:59
+- Perceiving Permissions
+  - Changing File Ownership - 2026-09-15 08:56:55
+  - Groups and Files - 2026-09-15 09:00:55
+  - Fun With Groups Names - 2026-09-15 09:02:45
+  - Changing Permissions - 2026-09-15 09:08:02
+  - Executable Files - 2026-09-15 09:10:14
+  - Permission Tweaking Practice - 2026-09-15 09:16:21
+  - Permissions Setting Practice - 2026-09-15 09:20:55
+  - The SUID Bit - 2026-09-15 09:23:29
+- Chaining Commands
+  - Chaining with Semicolons - 2026-09-15 09:24:55
+  - Building on Success - 2026-09-15 09:27:12
+  - Handling Failure - 2026-09-15 09:28:00
+  - Your First Shell Script - 2026-09-15 09:33:19
+  - Redirecting Script Output - 2026-09-15 09:36:49
+  - Executable Shell Scripts - 2026-09-15 09:38:15
+  - Understanding Shebangs - 2026-09-15 09:41:53
+  - Scripting with Arguments - 2026-09-15 09:44:58
+  - Scripting with Conditionals - 2026-09-15 09:47:12
+  - Scripting with Default Cases - 2026-09-15 09:48:20
+  - Scripting with Multiple Conditions - 2026-09-15 12:04:51
+  - Reading Shell Scripts - 2026-09-15 12:16:13
+- Terminal Multiplexing
+  - Launching Screen - 2026-09-15 12:17:32
+  - Detaching and Attaching - 2026-09-15 12:24:58
+  - Finding Sessions - 2026-09-15 12:27:27
+  - Switching Windows - 2026-09-15 12:29:28
+  - Detaching and Attaching (tmux) - 2026-09-15 12:31:06
+  - Switching Windows (tmux) - 2026-09-15 12:39:07
+- Pondering PATH
+  - The PATH Variable - 2026-09-15 12:43:08
+  - Setting PATH - 2026-09-15 12:47:31
+  - Finding Commands - 2026-09-15 12:50:05
+  - Adding Commands - 2026-09-15 16:25:40
+  - Hijacking Commands - 2026-09-15 16:59:12
+- Silly Shenanigans
+  - Bashrc Backdoor - 2026-09-15 17:14:06
+  - Sniffing Input - 2026-09-15 17:42:41
+  - Overshared Directories - 2026-09-15 17:54:08
+  - Tricky Linking - 2026-09-15 18:14:47
+  - Sniffing Process Arguments - 2026-09-18 18:10:01
+  - Snooping on Configurations - 2026-09-18 18:15:24
+- Daring Destruction
+  - The Fork Bomb - 2026-09-18 18:30:14
+  - Disk-Space Doomsday - 2026-09-18 18:38:11
+  - rm -rf / - 2026-09-18 18:44:10
+  - Life after rm -rf / - 2026-09-18 18:46:41
+  - Finding meaning after rm -rf / - 2026-09-18 18:49:12
+
+## Computing 101
+- Your First Program
+  - Your First Register - 2026-09-18 20:39:36
+  - Your First Syscall - 2026-09-18 21:10:03
+  - Exit Codes - 2026-09-18 21:12:16
+  - Building Executables - 2026-09-19 20:42:52
+  - Moving Between Registers - 2026-09-20 08:34:57
+- Computer Memory
+  - Loading From Memory - 2026-09-20 11:27:08
+  - More Loading Practice - 2026-09-20 19:09:35
+  - Dereferencing Pointers - 2026-09-20 19:40:52
+  - Dereferencing Yourself - 2026-09-20 19:53:51
+  - Dereferencing with Offsets - 2026-09-20 20:03:40
+  - Stored Addresses - 2026-09-20 20:50:24
+  - Double Dereference - 2026-09-20 20:53:32
+- The Stack
+  - The Stack - 2026-09-20 20:59:32
+  - Stack Offsets - 2026-09-20 21:01:59
+  - Program Arguments on the Stack - 2026-09-20 21:06:28
+  - Popping From the Stack - 2026-09-20 21:14:56
+- Nibbling on Numbers
+  - Negative Numbers - 2026-09-20 21:44:34
+  - Negative Numbers (16-bit) - 2026-09-20 21:47:45
+  - Negative Numbers (32-bit) - 2026-09-20 21:52:17
+  - Encoding Negatives - 2026-09-20 21:55:25
+  - Binary and Hex Encoding - 2026-09-21 06:42:04
+  - More Hex - 2026-09-21 06:45:17
+  - Decoding Hex - 2026-09-21 06:48:21
+  - Mixed Conversions - 2026-09-21 06:55:10
+- Software Introspection
+  - Disassembling Programs - 2026-09-21 10:38:31
+  - Tracing Syscalls - 2026-09-21 10:43:09
+  - Starting GDB - 2026-09-21 10:44:35
+  - Quitting GDB - 2026-09-21 10:45:36
+  - Starting Programs in GDB - 2026-09-21 10:47:54
+  - Disassembling in GDB - 2026-09-21 10:49:06
+  - Stepping Through Instructions - 2026-09-21 10:52:17
+  - Reading Register Values - 2026-09-21 10:54:50
+  - Setting Register Values - 2026-09-21 11:01:53
+  - Popping Stack Values - 2026-09-21 11:26:53
+  - Examining Memory - 2026-09-21 11:28:54
+  - Examining Stack Pointers - 2026-09-21 11:40:15
+  - Cooperative Debugging - 2026-09-21 18:18:14
+  - Running with Arguments - 2026-09-21 18:21:15
+  - Redirecting Input in GDB - 2026-09-21 18:25:40
+- Output and Input
+  - Writing Output - 2026-09-21 19:44:08
+  - Chaining Syscalls - 2026-09-21 19:47:11
+  - Writing Strings - 2026-09-21 19:55:28
+  - Reading Data - 2026-09-21 20:15:31
+  - Reading Exactly - 2026-09-21 20:28:01
+  - Opening Files - 2026-09-21 20:57:44
+  - Hardcoding the Filename - 2026-09-22 16:49:32
+  - RIP-Relative Strings - 2026-09-22 17:06:52
+- Control Flow
+  - Comparing Values - 2026-09-22 18:14:24
+  - Comparing Characters - 2026-09-30 15:12:01
+  - Conditional Control Flow - 2026-09-30 15:23:38
+  - Comparing Strings - 2026-09-30 16:27:57
+  - Reverse the Password - 2026-09-30 16:33:04
+  - Conditionals Without Conditionals - 2026-09-30 18:17:58
+  - Recognizing Loops - 2026-09-30 18:24:29
+  - Writing Loops - 2026-09-30 19:13:08
+  - Writing From a Shared Library - 2026-09-30 20:15:40
+  - Returning a Value - 2026-09-30 20:28:48
+  - Calling Through a Pointer - 2026-09-30 20:38:17
+  - Calling Through a Pointer with an Argument - 2026-09-30 20:44:03
+  - Saving Caller-Saved Registers - 2026-09-30 21:16:12
+  - Saving Callee-Saved Registers - 2026-09-30 21:20:00
+- Endian Escapades
+  - Sign Extension - 2026-10-01 13:23:13
+  - Little-Endian Bytes - 2026-10-01 13:37:33
+  - Qword by Qword - 2026-10-01 14:12:33
+  - Dword by Dword - 2026-10-01 14:20:15
+  - Word by Word - 2026-10-01 14:24:35
+  - Byte by Byte - 2026-10-01 14:28:55
+  - Cracking a Struct - 2026-10-01 14:56:23
+  - Scrambled Struct - 2026-10-01 15:44:19
+- Assembly Assortment
+  - Reverse the Calculation - 2026-10-01 15:56:30
+  - Reverse the Reverse - 2026-10-01 15:59:18
+  - Dealing with Bitwise Operations - 2026-10-01 16:12:53
+  - Even or Odd - 2026-10-01 16:28:02
+  - Masking Bits - 2026-10-01 16:31:56
+  - Lowercase a String - 2026-10-01 16:56:49
+  - Uppercase a String - 2026-10-01 17:25:24
+  - Swap Case - 2026-10-01 17:38:04
+  - Shifting Left - 2026-10-01 17:40:58
+  - Shifting Right - 2026-10-01 17:44:03
+  - Loops on Data - 2026-10-01 17:45:50
+- The Stack, Revisited
+  - Reaching Into the Caller's Frame - 2026-10-01 19:14:03
+  - Loading Stale Stack Data - 2026-10-02 16:46:33
+  - Stepping/Stealing Stale Stack Data - 2026-10-02 16:57:58
+  - Reserving Your Own Frame - 2026-10-02 17:17:15
+  - Using Your Own Frame - 2026-10-04 17:37:19
+  - Environment Variables on the Stack - 2026-10-04 18:57:15
+  - Aligning the Stack Through the Environment - 2026-10-04 19:00:15
+  - Aligning the Stack Through GDB - 2026-10-04 19:05:00
+  - Aligning the Stack Through GDB, Generalized - 2026-10-04 19:28:16
+- Numbers as Strings
+  - A Single Digit - 2026-10-04 19:42:13
+  - Two Digits - 2026-10-04 20:01:45
+  - String to Integer - 2026-10-04 20:11:32
+  - Negative Numbers - 2026-10-04 20:28:07
+  - Where the Number Ends - 2026-10-04 20:44:26
+  - A Whole Program - 2026-10-05 10:47:36
+  - A Single Digit, Back to Text - 2026-10-05 11:00:31
+
+## Playing With Programs
+- Dealing with Data
+  - What's the password? - 2026-09-27 20:05:12
+  - ... and again! - 2026-09-27 20:05:53
+  - Newline Troubles - 2026-09-27 20:13:51
+  - Reasoning about files - 2026-09-27 20:16:16
+  - Specifying Filenames - 2026-09-27 20:17:37
