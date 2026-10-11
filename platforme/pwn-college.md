@@ -2,6 +2,8 @@
 
 ### Profil:  https://pwn.college/hacker/211629
 
+> Nota: Fus orar - UTC
+
 ## Start Here
 - Using the dojo
   - Using the Terminal - 2026-09-08 13:06:04
