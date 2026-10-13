@@ -29,4 +29,4 @@ print("Headers: ", check_headers("http://this-site-does-not-exist.invalid"))
 
 print("\n\nPartea 6:")
 print("Retry attempts: ", retry_check("https://example.com"))
-print("Retry attempts: ", retry_check("http://this-site-does-not-exist.invalid"))
+print("Retry attempts: ", retry_check("http://this-site-does-not-exist.invalid")) # nu merge :((
