@@ -49,7 +49,7 @@ def check_site(url):
     """Returnează un dicționar cu: status, content_type, length, server."""
 
     try:
-        time.sleep(1)
+        time.sleep(5)
         r = requests.get(url, timeout=5)
 
         r.raise_for_status()
@@ -76,7 +76,6 @@ def scan_sites():
     rezultat = []
 
     for site in SITES:
-        print(f"curr {site}")
         if check_site(site).get("status") == 200 :
             rezultat.append(site)
 
@@ -124,7 +123,7 @@ def check_headers(url):
 def retry_check(url, attempts=3):
     """Încearcă de cel mult `attempts` ori; returnează un dicționar cu: status, attempts."""
 
-
+    rezultat = {}
     curr_attempt = 0
 
     while (curr_attempt <= attempts):
@@ -132,12 +131,22 @@ def retry_check(url, attempts=3):
             curr_attempt += 1
             r = requests.get(url, timeout=5)
 
+
             if r.status_code < 500:
                 return {
                     "status": r.status_code,
                     "attempts": curr_attempt
                 }
-        except:
+            r.raise_for_status()
+
+        except requests.exceptions.HTTPError as e:
+            rezultat = {
+                    # "status": e.response.status_code,
+                    "attempts": curr_attempt
+            }
+
+
+    return rezultat
 
 
 

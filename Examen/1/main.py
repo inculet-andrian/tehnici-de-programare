@@ -19,7 +19,7 @@ print(check_site("http://this-site-does-not-exist.invalid"))
 
 # Partea 4: apelul scan_sites()
 print("\n\nPartea 4: ")
-# scan_sites()
+scan_sites()
 
 
 # Partea 5: apeluri pentru check_headers
@@ -27,3 +27,6 @@ print("Headers: ", check_headers("https://example.com"))
 print("Headers: ", check_headers("http://this-site-does-not-exist.invalid"))
 # Partea 6: apeluri pentru retry_check
 
+print("\n\nPartea 6:")
+print("Retry attempts: ", retry_check("https://example.com"))
+print("Retry attempts: ", retry_check("http://this-site-does-not-exist.invalid"))
