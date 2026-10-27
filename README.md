@@ -17,7 +17,8 @@ Repository pentru laboratoarele, atestarile, si lucrul pe diverse platforme (ex.
 | [Raport 5](./Laborator5/L5_TP_Inculet_Andrian%20_SI-262.pdf) | Importuri, metode, funcții, module | 
 | [Raport 6](./Laborator6/L6_TP_Inculet_Andrian_SI-262.pdf) | Forensics / decodare | 
 | [Raport 7](./Laborator7/L7_TP_Inculet_Andrian_SI-262.pdf) | Trusa de unelte HTTP | 
-
+| [Raport 8A](./Laborator8/L8_TP_Inculet_Andrian_SI-262.pdf) | GitHub pas  cu pas |
+| [Raport 8B](./Laborator8/L8b_TP_Inculet_Andrian_SI-262.pdf)  | Unealta stricata reparata cu Git |
 
 ### Altele
 | Denumire | Continut |
