@@ -19,6 +19,7 @@ Repository pentru laboratoarele, atestarile, si lucrul pe diverse platforme (ex.
 | [Raport 7](./Laborator7/L7_TP_Inculet_Andrian_SI-262.pdf) | Trusa de unelte HTTP | 
 | [Raport 8A](./Laborator8/L8_TP_Inculet_Andrian_SI-262.pdf) | GitHub pas  cu pas |
 | [Raport 8B](./Laborator8/L8b_TP_Inculet_Andrian_SI-262.pdf)  | Unealta stricata reparata cu Git |
+| [Raport 9](./Laborator9/L9_TP_Inculet_Andrian_SI-262.pdf) | Colecții: liste, tupluri, mulțimi, dicționare. |
 
 ### Altele
 | Denumire | Continut |
