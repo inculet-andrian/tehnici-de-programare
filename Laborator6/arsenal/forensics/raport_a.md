@@ -10,7 +10,7 @@ Etapele de decodare
 |-----|------------------|---------|--------|
 | 1 | base64 | `NTM1OTU3NTk=` | `53595759` |
 | 2 | hex | `53595759` | `SYWY` |
-| 3 | base64 | `SYWY` | `I\x85\x98` |
+Al treilea pas dadea caractere non imprimabile, deci m-am oprit la pasul 2.
 
 ### 2, Cheie XOR
 Fisierul probe/xor.bin e un texr criptat cu xor, cu o cheie de un octet. Am incercat toate cheile de la 0 pana la 255. Pentru fiecare cheie am aplicat xor pe fiecare octet si am verificat daca rezultatul e format de caractere imprimabile.

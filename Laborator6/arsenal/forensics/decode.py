@@ -16,7 +16,7 @@ print(bytes.fromhex(h))
 
 print("\nA2:")
 def ghici_strat(s: str) -> str:
-    if re.fullmatch("%[a-zA-Z0-9%]+", s):
+    if re.fullmatch("%[a-fA-F0-9]{2}", s):
         return "url"
     elif re.fullmatch("[0-9a-fA-F]+",s) and len(s) % 2 == 0:
         return "hex"
@@ -25,7 +25,7 @@ def ghici_strat(s: str) -> str:
     else:
         return "necunoscut"
 
-print("%2Fetc: ", ghici_strat("%2Fetc"))   # url
+print("%2Fetc: ", ghici_strat("%2F"))   # url
 print("48656c6c6f: ",ghici_strat("48656c6c6f"))  # hex
 
 print("\nA3:")
@@ -59,10 +59,10 @@ if __name__ == "__main__":
             break
         nou = b.decode("latin-1")
         if "necunoscut" == ghici_strat(nou):
-            print(nou)
             break
         else:
             val = nou
+    print(val)
 
     print("\nA5:")
 
