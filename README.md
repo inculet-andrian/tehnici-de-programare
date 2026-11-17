@@ -21,6 +21,8 @@ Repository pentru laboratoarele, atestarile, si lucrul pe diverse platforme (ex.
 | [Raport 8B](./Laborator8/L8b_TP_Inculet_Andrian_SI-262.pdf)  | Unealta stricata reparata cu Git |
 | [Raport 9](./Laborator9/L9_TP_Inculet_Andrian_SI-262.pdf) | Colecții: liste, tupluri, mulțimi, dicționare. |
 | [Raport 10](./Laborator10/L10_TP_Inculet_Andrian_SI-262.pdf) | Funcții și excepții |
+| [Raport 11](./Laborator11/L11_TP_Inculet_Andrian_SI-262.pdf) | Obiecte și clase |
+
 
 
 ### Altele
